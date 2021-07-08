@@ -12,6 +12,7 @@ export const settings = {
   },
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
+  defaultHeaderIcon: 'book-open',
 };
 
 export const pageContents = {
@@ -140,6 +141,18 @@ const cards = [
     title: 'Skyrim',
   },
 ];
+
+export const faq = {
+  title: 'Frequently Asked Questions',
+  imgSrc: 'https://cdn.pixabay.com/photo/2017/07/10/23/43/question-mark-2492009_960_720.jpg',
+  content: 'Welcome to FAQ. You will find answers to the most common questions about this website',
+};
+
+export const info = {
+  title: 'Webstite Information',
+  imgSrc: 'https://cdn.pixabay.com/photo/2018/03/21/07/16/learning-3245793_960_720.jpg',
+  content: 'Here You will find all the information You need about how this website works!',
+};
 
 const initialStoreData = {
   app: {...pageContents},

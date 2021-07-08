@@ -2,11 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Container.scss';
 
-const Container = props =>(<div className={styles.component}>{props.children}</div>);
+const Container = ({children}) =>(<div className={styles.component}>{children}</div>);
 
 
 Container.propTypes = {
-  children: PropTypes.string,
+  children: PropTypes.node,
 };
 
 export default Container;
