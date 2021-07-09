@@ -80,6 +80,18 @@ const lists = [
     description: 'Interesting things I want to check out!',
     image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
   },
+  {
+    id: 'list-2',
+    title: 'Things to learn',
+    description: 'Everything I need to know to be a programmer!',
+    image: 'https://cdn.pixabay.com/photo/2014/11/24/18/50/mind-544404_960_720.png',
+  },
+  {
+    id: 'list-3',
+    title: 'Countries to visit',
+    description: 'Bucketlist of all places I have to visit',
+    image: 'https://cdn.pixabay.com/photo/2018/05/18/16/41/globe-3411506_960_720.jpg',
+  },
 ];
 
 const columns = [
@@ -104,8 +116,14 @@ const columns = [
   {
     id: 'column-4',
     listId: 'list-2',
-    title: 'Strange column',
+    title: 'Front-end',
     icon: 'question',
+  },
+  {
+    id: 'column-5',
+    listId: 'list-3',
+    title: 'Europe',
+    icon: 'globe-europe',
   },
 ];
 
@@ -139,6 +157,16 @@ const cards = [
     id: 'card-6',
     columnId: 'column-3',
     title: 'Skyrim',
+  },
+  {
+    id: 'card-7',
+    columnId: 'column-4',
+    title: 'PHP',
+  },
+  {
+    id: 'card-8',
+    columnId: 'column-5',
+    title: 'Italy',
   },
 ];
 
